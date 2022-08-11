@@ -1,0 +1,11 @@
+[requires]
+qt/5.15.2
+libjpeg-turbo/2.0.6
+
+[options]
+qt:with_libjpeg=libjpeg-turbo
+
+[generators]
+cmake_find_package
+cmake_paths
+qt
